@@ -15,11 +15,6 @@ function mfb=EWT_Meyer_FilterBank(boundaries,N)
 %   -mfb: cell containing each filter (in the Fourier domain), the scaling
 %         function comes first and then the successive wavelets
 %
-% Author: Jerome Gilles
-% Institution: UCLA - Department of Mathematics
-% Year: 2012
-% Version: 1.0
-% =========================================================================
 
 Npic=length(boundaries);
 
