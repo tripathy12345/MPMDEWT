@@ -14,12 +14,6 @@ function yms=EWT_Meyer_Scaling(w1,gamma,N)
 %
 % Output:
 %   -yms: Fourier transform of the scaling function
-%
-% Author: Jerome Gilles
-% Institution: UCLA - Department of Mathematics
-% Year: 2012
-% Version: 1.0
-%===================================================
 
 Mi=floor(N/2);
 w=fftshift((0:2*pi/N:2*pi-2*pi/N))';
